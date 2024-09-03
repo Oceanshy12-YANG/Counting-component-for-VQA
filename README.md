@@ -1,20 +1,11 @@
 # Counting-component-for-VQA
 Improvement of vqa counting method
 
-![Overview of what the method accomplishes](cats.png)
-
-This is the official implementation of our ICLR 2018 paper [Learning to Count Objects in Natural Images for Visual Question Answering][0] in [PyTorch][1].
-In this paper, we introduce a counting component that allows VQA models to count objects from an attention map, achieving state-of-the-art results on the number category of VQA v2.
-
-The core module is fully contained in [`counting.py`][3].
-If you want to use the counting component, that is the only file that you need.
-
-Check out the README's in the `vqa-v2` directory for VQA v2 and `toy` directory for our toy dataset for more specific information on how to train and evaluate on these datasets.
+A key aspect of VQA is its ability to compute objects in images, which is crucial for solving problems involving quantity. For the counting method, Yan Zhang proposed a novel approach to enhance the VQA system's ability to count objects in natural images. By combining object counting with visual question answering tasks, researchers have proposed a model that can better identify and count objects in images, thereby improving the accuracy of VQA systems for quantity problems. Despite improvements, text processing in VQA systems is still limited, especially for problems with complex language structures or context sensitive queries. The aim of this study is to improve the VQA system by proposing enhancements to text processing and fusion components, and to address the counting problem in visual question answering using different combinations and variations of language and visual models. 
 
 ## Single-model results on VQA v2 test-std split
 
-As of time of writing, our accuracy on number questions is state-of-the art for single *and* ensemble models.
-The accuracy on the overall category is, as far as we know, the second best among single models (see [MFH][4]), though our approach is complementary to theirs.
+Through research, our main contribution is the introduction of Long-Short Term Memory(LSTM) with attention mechanism for improvement, and we have developed a low rank version of the Multimodal Bilinear Pooling(MLB) fusion module to reduce computational complexity and adapt to the low memory GPU. We have also found that the actual BERT model is not suitable for VQA tasks.
 
 
 |   Metrics  |  RoBERTa  | DisBert | LSTM   | Origin   |
