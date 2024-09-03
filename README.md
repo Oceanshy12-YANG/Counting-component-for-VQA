@@ -17,7 +17,7 @@ As of time of writing, our accuracy on number questions is state-of-the art for 
 The accuracy on the overall category is, as far as we know, the second best among single models (see [MFH][4]), though our approach is complementary to theirs.
 
 Metrics | RoBERTa | DisBert | LSTM | Origin
---- | --- | --- | --- | ---
+----------- | :-----------: | :-----------: |:-----------: | :-----------: |
 
 Original fusion | 55.38 | 56.22 | 66.25 | **66.55**
 MLB | 52.19 | 54.70 | **60.03** | 53.09
