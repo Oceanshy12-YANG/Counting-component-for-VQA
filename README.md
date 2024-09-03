@@ -24,8 +24,6 @@ MLB | 52.19 | 54.70 | **60.03** | 53.09
 Concatenate | 55.59 | 55.52 | **61.93** | 55.12
 
 
-83.56 | **51.39** | 59.11 | 68.41  |11
-
 
 
 UPDATE: With this year's VQA Challenge, our number results are no longer SotA.
