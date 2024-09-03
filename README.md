@@ -16,6 +16,4 @@ Through research, our main contribution is the introduction of Long-Short Term M
 
 
 
-UPDATE: With this year's VQA Challenge, our number results are no longer SotA.
-However, [Bilinear Attention Networks][5] [[code]][6] use this counting component with their improved attention model and get 54.04% on the number category, which is the new SotA on the number category.
-This validates our claim that a better attention model should lead to further improvements in counting through our counting module.
+UPDATE: 
