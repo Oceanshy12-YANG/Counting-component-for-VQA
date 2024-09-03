@@ -26,12 +26,10 @@ The accuracy on the overall category is, as far as we know, the second best amon
 
 |   Metrics  |  RoBERTa  | DisBert | LSTM   | Origin   |
 | ---------- | :-----------:  | :-----------: | :-----------: | :-----------:  | 
-| Blur ($\sigma=3$) + Noise ($\sigma=30$) | Ours | **32.19** | **0.7434** | **0.0932** | 
-|  | Lighting-LoRA | 29.37| 0.5834| 0.1232 | 
-|  | HWXL-LoRA | 28.87| 0.6025 | 0.1183 | 
-|  | SUPIR | 29.46| 0.4203 | 0.1402 | 
-|  | Lighting | 29.63| 0.5523| 0.2085 | 
-|  | HWXL |29.13 | 0.5856| 0.1490 | 
+| Original fusion | 55.38 | 56.22 | *66.25 | **66.55** | 
+| MLB  | 52.19 | 54.70 | **60.03** | 53.09 | 
+| Concatenate | 55.59 | 55.52 | **61.93** | 55.12 | 
+
 
 
 UPDATE: With this year's VQA Challenge, our number results are no longer SotA.
