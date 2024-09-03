@@ -16,9 +16,16 @@ Check out the README's in the `vqa-v2` directory for VQA v2 and `toy` directory 
 As of time of writing, our accuracy on number questions is state-of-the art for single *and* ensemble models.
 The accuracy on the overall category is, as far as we know, the second best among single models (see [MFH][4]), though our approach is complementary to theirs.
 
-Yes/No | Number | Other | All
---- | --- | --- | ---
-83.56 | **51.39** | 59.11 | 68.41
+Metrics | RoBERTa | DisBert | LSTM | Origin
+--- | --- | --- | --- | ---
+
+Original fusion | 55.38 | 56.22 | 66.25 | **66.55**
+MLB | 52.19 | 54.70 | **60.03** | 53.09
+Concatenate | 55.59 | 55.52 | **61.93** | 55.12
+
+
+83.56 | **51.39** | 59.11 | 68.41  |11
+
 
 
 UPDATE: With this year's VQA Challenge, our number results are no longer SotA.
