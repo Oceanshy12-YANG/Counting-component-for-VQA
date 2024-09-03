@@ -19,10 +19,9 @@ The accuracy on the overall category is, as far as we know, the second best amon
 | Metrics | RoBERTa | DisBert | LSTM | Origin |
 |----------- | :-----------: | :-----------: |:-----------: | :-----------: |
 
-|Original fusion | 55.38 | 56.22 | 66.25 | **66.55**
-|MLB | 52.19 | 54.70 | **60.03** | 53.09
-|Concatenate | 55.59 | 55.52 | **61.93** | 55.12
-
+|Original fusion | 55.38 | 56.22 | 66.25 | **66.55**|
+|MLB | 52.19 | 54.70 | **60.03** | 53.09|
+|Concatenate | 55.59 | 55.52 | **61.93** | 55.12|
 
 
 |   Metrics  |  RoBERTa  | DisBert | LSTM   | Origin   |
